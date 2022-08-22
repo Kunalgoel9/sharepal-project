@@ -1,0 +1,51 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  height: 100px;
+}
+.loactionDropDown {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+.midNav {
+  display: grid;
+  width: 60%;
+  font-size: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.navBtn {
+  width: 50%;
+  min-width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 35px;
+  padding: 5px;
+}
+.loginSignupBtn {
+  width: "80%";
+
+  border: 1px solid #0927eb;
+  color: #0927eb;
+  border-radius: 10%;
+
+  padding: 0px 10px;
+  align-items: center;
+}
+.navBtn {
+  display: flex;
+  align-items: center;
+}
+.rightNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.shopingIcon {
+  font-size: 2em;
+}
